@@ -1,0 +1,4 @@
+nb-configuration.xml
+target
+src/main/frontend/node/
+src/main/frontend/npm-debug.log
