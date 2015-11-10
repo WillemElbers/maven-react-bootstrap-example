@@ -1,0 +1,23 @@
+{
+  "name": "react-bootstrap",
+  "version": "1.0.0",
+  "description": "React with bootstrap application",
+  "author": "Willem Elbers",
+  "license": "GPGL",
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.3.4",  
+    "gulp-cssmin": "^0.1.6",
+    "browserify": "^10.2.1",
+    "watchify": "^2.1.1",
+    "reactify": "^0.15.2",
+    "vinyl-source-stream": "^0.1.1"    
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-router": "^1.0.0-rc1",
+    "react-bootstrap": "^0.27.3",
+    "object-assign": "^3.0.0",
+    "flux": "^2.0.3"
+  }
+}
