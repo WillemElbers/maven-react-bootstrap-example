@@ -13,3 +13,9 @@ react
 react-router
 react-bootstrap
 flux
+
+# References #
+
+http://supposed.nl/2014/06/02/integrate-gulp-and-grunt-into-your-maven-build.html
+https://github.com/eirslett/frontend-maven-plugin
+http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html

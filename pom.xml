@@ -66,7 +66,11 @@
                 <version>2.1.1</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <directory>src/main/frontend/build</directory>
+                    <webResources>
+                        <resource>
+                            <directory>src/main/frontend/build/</directory>
+                        </resource>
+                    </webResources>
                 </configuration>
             </plugin>
             <plugin>
