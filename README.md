@@ -1,21 +1,33 @@
-This repository provides an example implementation of a maven, react, boostrap example. React router and flux are included.
-The goal is to provide a workflow where you can develop both the backend and frontend in a single project and deploy both at the same time.
+Example maven project that includes both the backend, based on a jersey jax-rs 
+implementation, and the frontend based on react.js and flux (including react-
+router). The project can be build via maven and deployed in jetty.
 
-# Components #
+# Structure
 
-## backend ##
+```
+pom.xml
+\-src
+  \-main
+    \-frontend
+    \-java
+    \-resources
+    \-webapp
+```
 
-jersey
+# Running
+The following command will build and package the backend together with the
+frontend in a single war. The war is deployed in a jetty server running on port 
+8080.
+```
+mvn jetty:run-war
+```
 
-## frontend ##
+# Resources
 
-react
-react-router
-react-bootstrap
-flux
+http://christianalfoni.github.io/javascript/2014/08/15/react-js-workflow.html
+--> https://github.com/christianalfoni/react-app-boilerplate
 
-# References #
+https://spinspire.com/article/creating-restful-service-java-and-jersey-netbeans
+http://www.vogella.com/tutorials/REST/article.html#crud
 
-http://supposed.nl/2014/06/02/integrate-gulp-and-grunt-into-your-maven-build.html
-https://github.com/eirslett/frontend-maven-plugin
-http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html
+https://maven.apache.org/guides/mini/guide-creating-archetypes.html
