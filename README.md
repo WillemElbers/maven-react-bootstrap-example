@@ -19,6 +19,14 @@ pom.xml                 # Maven project configuration
 When building the project all files, including the final war archive, will be 
 compiled in and copied into the `target` directory.
 
+## Backend
+
+<todo>
+
+## Frontend
+
+<todo>
+
 # Running
 The following command will build and package the backend together with the
 frontend in a single war. The war is deployed in a jetty server running on port 
@@ -30,6 +38,8 @@ mvn jetty:run-war
 # Maven archetype
 
 Howto generate a maven archetype from this project.
+
+<todo>
 
 # Netbeans integration
 
